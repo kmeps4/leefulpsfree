@@ -1,0 +1,20 @@
+CACHE MANIFEST 
+# Leeful Auto v5b
+
+alert.mjs
+btn.css
+cache.html
+config.mjs
+exploit.js
+exploit.mjs
+favicon.ico
+index.html
+pl_goldhenbeta.bin
+module\chain.mjs
+module\constants.mjs
+module\int64.mjs
+module\mem.mjs
+module\memtools.mjs
+module\offset.mjs
+module\rw.mjs
+module\utils.mjs
