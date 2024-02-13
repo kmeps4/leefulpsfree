@@ -9,14 +9,14 @@ body{background: linear-gradient(to bottom right, #063FAB, #01258A);color:white;
 </style>
 
 <script>
-function webkitExploit() 
+async function webkitExploit() 
 {
- import('./alert.mjs');
+ await import('./alert.mjs');
 }
 </script>
 
 </head>
-<body onload="webkitExploit();"><!--  -->
+<body onload="setTimeout(webkitExploit,50);"><!--  -->
 <script src="exploit.js"></script>
 <div id="msgs" class="info">Running Webkit Exploit, Please Wait ...</div>
 <script>
